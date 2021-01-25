@@ -153,6 +153,16 @@
                     </attribute>
                     <attribute qualifier="name" type="localized:java.lang.String" >
                         <description>Seller name</description>
+                        <modifiers search="true" />
+                        <persistence type="property"/>
+                    </attribute>
+                    <attribute qualifier="location" type="java.lang.String" >
+                        <description>Seller location</description>
+                        <modifiers />
+                        <persistence type="property"/>
+                    </attribute>
+                    <attribute qualifier="npwp" type="java.lang.String" >
+                        <description>Seller NPWP</description>
                         <modifiers/>
                         <persistence type="property"/>
                     </attribute>
